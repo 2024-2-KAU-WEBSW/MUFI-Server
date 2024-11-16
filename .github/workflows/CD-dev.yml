@@ -7,7 +7,7 @@ on:
     branches: [ "develop" ]
 
 env:
-  S3_BUCKET_NAME: mufi-storage
+  S3_BUCKET_NAME: mufi-server-bucket
 
 jobs:
   build:
