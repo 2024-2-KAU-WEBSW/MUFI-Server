@@ -82,5 +82,5 @@ jobs:
         --application-name mufi-server-codedeploy
         --deployment-group-name mufi-server-codedeploy-group
         --file-exists-behavior OVERWRITE
-        --s3-location bucket=mufi-storage,bundleType=zip,key=mufi-server.zip
+        --s3-location bucket=mufi-server-bucket,bundleType=zip,key=mufi-server.zip
         --region ap-northeast-2
