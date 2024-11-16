@@ -8,7 +8,7 @@ public class AuthWhiteList {
 
     public static final List<String> AUTH_WHITELIST_DEFALUT = Arrays.asList(
             "/loading", "/error", "/api/login", "/api/reissue",
-            "/health", "/actuator/health", "/"
+            "/health", "/actuator/health", "/", "/profile"
     );
 
     public static final List<String> AUTH_WHITELIST_WILDCARD = Arrays.asList(
