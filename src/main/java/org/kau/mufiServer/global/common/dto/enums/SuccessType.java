@@ -12,8 +12,8 @@ public enum SuccessType {
     /**
      * 200 OK
      */
-    PROCESS_SUCCESS(HttpStatus.OK, "OK"),
-    PROCESS_SUCCESSED(HttpStatus.CREATED, "요청이 성공했습니다."),
+    PROCESS_SUCCESS(HttpStatus.OK, "요청이 성공했습니다."),
+    PROCESS_CREATED(HttpStatus.CREATED, "요청에 따라 리소스가 생성되었습니다."),
     LOGIN_SUCCESS(HttpStatus.OK, "로그인에 성공했습니다."),
     REISSUE_SUCCESS(HttpStatus.OK, "Access 토큰 재발급에 성공했습니다."),
     LOGOUT_SUCCESS(HttpStatus.OK, "로그아웃에 성공했습니다."),
